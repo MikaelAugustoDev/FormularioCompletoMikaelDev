@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style3.css">
+    <title>Formulario | MikaelDev</title>
+    <script src="assets/js/app.js" defer></script>
+
+</head>
+
+<body id="target-container">
+    <div class="container">
+        <div class="bgSidebar">
+
+            <div class="stepaNav">
+                <div id="index1" class="stepContainer">
+                    <span class="one">1</span>
+                    <div class="stepOne">ETAPA 1<br><span>Suas Informações</span></div>
+                </div>
+
+                <div id="index2" class="stepContainer">
+                    <span class="one">2</span>
+                    <div class="stepOne">ETAPA 2<br><span>Selecione o plano</span></div>
+                </div>
+
+                <div class="stepContainer">
+                    <span id="currentStep" class="one">3</span>
+                    <div class="stepOne">ETAPA 3<br><span>Complemento</span></div>
+                </div>
+
+                <div id="index4" class="stepContainer">
+                    <span class="one">4</span>
+                    <div class="stepOne">ETAPA 4<br><span>Sumario</span></div>
+                </div>
+
+            </div>
+
+            <img id="tImgX" src="assets/images/bg-sidebar-desktop.svg" alt="">
+
+
+
+        </div>
+
+
+
+        <div class="dataInfo">
+
+            <div class="mobileContainer">
+
+                <div class="dataInfoContent">
+                    <h1>Complementos</h1>
+                    <p>Os complementos ajudam a aprimorar sua experiência de jogo.</p>
+                </div>
+
+                <div class="addOnFlexContainer">
+
+                    <div class="addOnBox1">
+                        <input class="addOnCheckbox" type="checkbox" id="onlineService" name="newsletter">
+
+
+                        <div class="textDateBox">
+                            <div class="addOntextBox">
+                                <p class="addOntext1">Serviço Online</p>
+                                <p class="addOntext2">Acesso ao modo multiplayer</p>
+                            </div>
+                            <div id="addOndate1" class="addOndate">
+                                +$1/mês
+                            </div>
+                        </div>
+
+
+                        </input>
+
+                    </div>
+
+                    <div class="addOnBox1">
+                        <input class="addOnCheckbox" type="checkbox" id="largerStorage" name="newsletter">
+
+                        <div class="textDateBox">
+                            <div class="addOntextBox">
+                                <p class="addOntext1">Armazenamento Maior</p>
+                                <p class="addOntext2">1TB extra na núvem</p>
+                            </div>
+                            <div id="addOndate2" class="addOndate">
+                                +$2/mês
+                            </div>
+                        </div>
+
+
+                        </input>
+
+                    </div>
+
+                    <div class="addOnBox1">
+                        <input class="addOnCheckbox" type="checkbox" id="customizableProfile" name="newsletter">
+
+
+                        <div class="textDateBox">
+                            <div class="addOntextBox">
+                                <p class="addOntext1">Perfil Customizado</p>
+                                <p class="addOntext2">Tema personalizado do perfil</p>
+                            </div>
+                            <div id="addOndate3" class="addOndate">
+                                +$2/mês
+                            </div>
+                        </div>
+
+
+                        </input>
+
+                    </div>
+
+                </div>
+
+                <div id="element-to-move" class="buttonContainer">
+                    <button id="step3To2" class="goBack">Voltar</button>
+                    <button id="stepTo4">Próxima Etapa</button>
+                </div>
+
+            </div>
+
+        </div>
+
+</body>
+
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+</html>

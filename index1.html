@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Formulario | MikaelDev</title>
+    <script src="assets/js/app.js" defer></script>
+
+</head>
+
+<body id="target-container">
+    <div class="container">
+        <div class="bgSidebar">
+
+            <div class="stepaNav">
+                <div class="stepContainer">
+                    <span id="currentStep" class="one">1</span>
+                    <div class="stepOne">ETAPA 1<br><span>Suas Informações</span></div>
+                </div>
+
+                <div id="index2" class="stepContainer">
+                    <span class="one">2</span>
+                    <div class="stepOne">ETAPA 2<br><span>Selecione o Plano</span></div>
+                </div>
+
+                <div id="index3" class="stepContainer">
+                    <span class="one">3</span>
+                    <div class="stepOne">ETAPA 3<br><span>Complemento</span></div>
+                </div>
+
+                <div id="index3" class="stepContainer">
+                    <span class="one">4</span>
+                    <div class="stepOne">ETAPA 4<br><span>Sumario</span></div>
+                </div>
+
+            </div>
+
+            <img id="tImgX" src="assets/images/bg-sidebar-desktop.svg" alt="">
+
+
+
+        </div>
+
+
+
+        <div class="dataInfo">
+
+            <div class="mobileContainer">
+
+                <div class="dataInfoContent">
+                    <h1>Informações Pessoais</h1>
+                    <p>Por favor, forneça seu nome, endereço de e-mail e número de telefone.</p>
+                </div>
+
+                <form>
+                    <label for="username">Nome<span class="nCheckEmpty">Campo Obrigatório</span></label><br>
+                    <input class="inputIndex1" placeholder="Mikael Augusto Mira" type="text" id="name" name="name"><br>
+
+
+                    <label for="username">Email<span class="eaCheckEmpty">Campo Obrigatório</span></label><br>
+                    <input class="inputIndex1" placeholder="mikaelaugustodev@gmail.com" type="text" id="email"
+                        name="email"><br>
+
+
+                    <label for="username">Telefone<span class="pnCheckEmpty">Campo Obrigatório</span></label><br>
+                    <input class="inputIndex1" placeholder="+55 (35) 99999-9999" type="text" id="number"
+                        name="number"><br>
+
+
+                </form>
+
+            </div>
+
+            <div id="element-to-move" class="buttonContainer">
+
+                <div class="space"></div>
+                <button id="stepTo2">Próxima Etapa</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+</html>

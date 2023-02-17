@@ -1,0 +1,151 @@
+:root {
+    --Marineblue: hsl(213, 96%, 18%);
+    --Purplishblue: hsl(243, 100%, 62%);
+    --Pastelblue: hsl(228, 100%, 84%);
+    --Lightblue: hsl(206, 94%, 87%);
+    --Strawberryred: hsl(354, 84%, 57%);
+
+    --Coolgray: hsl(231, 11%, 63%);
+    --Lightgray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.addOnFlexContainer4 {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    row-gap: 0.01rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+    border-radius: 6px;
+    border: 1px solid var(--Lightgray);
+    background-color: var(--Magnolia);
+}
+
+.total {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    height: 2.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.totalText {
+    color: var(--Coolgray);
+    margin: 0 2rem;
+    margin-top: 0.5rem;
+}
+
+.totalNumber {
+    color: var(--Purplishblue);
+    margin: 0 2rem;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.addOnBox4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 5rem;
+    padding: 0 2rem;
+    /* font-weight: 500; */
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: var(--Lightgray);
+    width: 90%;
+    margin: auto;
+    transform: translateY(1.2px);
+}
+
+.p1Index4 {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: var(--Marineblue);
+}
+
+.p2Index4 {
+    color: var(--Marineblue);
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.p2Index4:hover {
+    color: var(--Purplishblue);
+}
+
+.p3Index4 {
+    color: var(--Marineblue);
+    font-weight: 500;
+}
+
+.p5Index4 {
+    margin: 20px 0;
+    color: var(--Coolgray);
+}
+
+.p6Index4 {
+    color: var(--Coolgray);
+    margin: 20px 0;
+}
+
+.p7Index4 {
+    color: var(--Coolgray);
+    margin: 20px 0;
+}
+
+@media (max-width: 830px) {
+    .addOnFlexContainer4 {
+        width: 100%;
+    }
+
+    .addOnBox4 {
+        width: 90%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .total {
+        width: 100%;
+    }
+
+    .totalText {
+        color: var(--Coolgray);
+        margin: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .totalNumber {
+        color: var(--Purplishblue);
+        margin: 0 1rem;
+        margin-top: 1rem;
+    }
+
+    .mobileContainer {
+        padding-bottom: 5rem;
+    }
+
+    .buttonContainer {
+        position: relative;
+        width: 84%;
+        margin: auto;
+        /* margin-bottom: 3rem; */
+        transform: translateY(12rem);
+    }
+
+    /* .leftText4 {
+        margin-left: 1rem;
+    }
+
+    .rightText4 {
+        margin-right: 1rem;
+    } */
+}

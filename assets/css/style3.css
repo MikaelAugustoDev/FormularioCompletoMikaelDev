@@ -1,0 +1,100 @@
+:root {
+    --Marineblue: hsl(213, 96%, 18%);
+    --Purplishblue: hsl(243, 100%, 62%);
+    --Pastelblue: hsl(228, 100%, 84%);
+    --Lightblue: hsl(206, 94%, 87%);
+    --Strawberryred: hsl(354, 84%, 57%);
+
+    --Coolgray: hsl(231, 11%, 63%);
+    --Lightgray: hsl(229, 24%, 87%);
+    --Magnolia: hsl(217, 100%, 97%);
+    --Alabaster: hsl(231, 100%, 99%);
+    --White: hsl(0, 0%, 100%);
+}
+
+.mobileContainer {
+    height: auto;
+}
+
+.addOnFlexContainer {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    flex-direction: column;
+    row-gap: 2rem;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.addOnBox1 {
+    display: flex;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-between;
+    height: 4rem;
+    border: 1px solid var(--Coolgray);
+    font-weight: 500;
+}
+
+.addOnCheckbox {
+    margin: 0 1rem;
+}
+
+.addOnBox1:hover {
+    border: 1px solid var(--Purplishblue);
+}
+
+.textDateBox {
+    margin-left: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .addOntextBox {
+    position: relative;
+    right: 3rem;
+} */
+
+.addOntext1 {
+    font-weight: 600;
+    color: var(--Marineblue);
+}
+.addOntext2 {
+    color: var(--Coolgray);
+}
+.addOndate {
+    margin-right: 1rem;
+    color: var(--Purplishblue);
+}
+
+.mudarcor {
+    border-color: var(--Purplishblue);
+}
+
+@media (max-width: 830px) {
+    .addOnFlexContainer {
+        width: 100%;
+    }
+
+    .addOnBox1 {
+        height: 4.7rem;
+    }
+
+    .textDateBox {
+        margin-left: 0rem;
+    }
+
+    .buttonContainer {
+        position: relative;
+        width: 84%;
+        margin: auto;
+        /* margin-bottom: 3rem; */
+        transform: translateY(6rem);
+    }
+
+    .mobileContainer {
+        padding-bottom: 3rem;
+    }
+}

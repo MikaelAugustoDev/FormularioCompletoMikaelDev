@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style2.css">
+    <title>Formulario | MikaelDev</title>
+    <script src="assets/js/app.js" defer></script>
+    <script src="assets/js/app4.js" defer></script>
+
+</head>
+
+<body id="target-container">
+    <div class="container">
+        <div class="bgSidebar">
+
+            <div class="stepaNav">
+                <div id="index1" class="stepContainer">
+                    <span class="one">1</span>
+                    <div class="stepOne">ETAPA 1<br><span>Suas Informações</span></div>
+                </div>
+
+                <div class="stepContainer">
+                    <span id="currentStep" class="one">2</span>
+                    <div class="stepOne">ETAPA 2<br><span>Selecione o Plano</span></div>
+                </div>
+
+                <div id="index3" class="stepContainer">
+                    <span class="one">3</span>
+                    <div class="stepOne">ETAPA 3<br><span>Complemento</span></div>
+                </div>
+
+                <div id="index4" class="stepContainer">
+                    <span class="one">4</span>
+                    <div class="stepOne">ETAPA 4<br><span>Sumario</span></div>
+                </div>
+
+            </div>
+
+            <img id="tImgX" src="assets/images/bg-sidebar-desktop.svg" alt="">
+
+
+
+        </div>
+
+
+
+        <div class="dataInfo">
+
+            <div class="mobileContainer">
+
+                <div class="dataInfoContent">
+                    <h1>Selecione seu Plano</h1>
+                    <p>Você tem a opção de cobrança mensal ou anual.</p>
+                </div>
+
+                <div class="planBoxflexContainer">
+
+                    <div id="arcade" class="planBox">
+                        <div class="planImg">
+                            <img src="assets/images/icon-arcade.svg" alt="">
+                        </div>
+                        <div class="planImgText">
+                            <p>Intermediário</p>
+                            <span class="arcadePrice" id="spanMths">$9/mês</span>
+                            <div class="free2mnths">2 mêses grátis</div>
+                        </div>
+                    </div>
+
+                    <div id="advanced" class="planBox">
+                        <div class="planImg">
+                            <img src="assets/images/icon-advanced.svg" alt="">
+                        </div>
+                        <div class="planImgText">
+                            <p>Avançado</p>
+                            <span class="advancedPrice" id="spanMths2">$12/mês</span>
+                            <div class="free2mnths">2 mêses grátis</div>
+                        </div>
+                    </div>
+
+                    <div id="pro" class="planBox">
+                        <div class="planImg">
+                            <img src="assets/images/icon-pro.svg" alt="">
+                        </div>
+                        <div class="planImgText">
+                            <p>Pro</p>
+                            <span class="proPrice" id="spanMths3">$15/mês</span>
+                            <div class="free2mnths">2 mêses grátis</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="toggleMthYr">
+                    <p class="p1">Mensal<label class="switch">
+                            <input type="checkbox" id="checkbox">
+
+                            <span class="slider round"></span>
+                        </label><span class="p2">Anual</span></p>
+                </div>
+
+            </div>
+
+            <div id="element-to-move" class="buttonContainer">
+                <button id="stepBackTo1" class="goBack">Voltar</button>
+                <button id="stepTo3">Próxima Etapa</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+
+
+</body>
+
+
+
+</html>
